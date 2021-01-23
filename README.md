@@ -1,7 +1,24 @@
 # quiz-kanpai
 
-## laravel
-[インストール参考URLはこちら](https://coinbaby8.com/laravel55-webapplication-vuejs.html) 
-(composerも必要)
+## 環境構築
 
-laravel起動: `php artisan serve` (http://localhost:8000 でアクセス)
+### laravel
+phpフレームワーク。[>>Link](https://coinbaby8.com/laravel55-webapplication-vuejs.html)
+
+### composer 
+phpパッケージ管理システム。[>>Link](https://coinbaby8.com/laravel55-webapplication-vuejs.html)  
+`$ composer install` で composer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。([参考](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010))
+
+
+## 起動方法
+`$ php artisan serve`  
+その後 http://localhost:8000 にアクセス
+
+## その他メモ
+1. 初回起動時、500 Server Error について
+.envファイルがない場合、以下の手順で作成する。  
+```
+$ copy .env.example .env
+$ php artisan key:generate
+$ php artisan cache:clear
+```
