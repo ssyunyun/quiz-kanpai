@@ -7,11 +7,14 @@ phpフレームワーク。[>>Link](https://coinbaby8.com/laravel55-webapplicati
 
 ### composer 
 phpパッケージ管理システム。[>>Link](https://coinbaby8.com/laravel55-webapplication-vuejs.html)  
-`$ composer install` で composer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。([参考](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010))
+`$ composer install` で composer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。[>>Link](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010)
 
 
 ## 起動方法
-`$ php artisan serve`  
+```
+$ cd laravel
+$ php artisan serve
+```
 その後 http://localhost:8000 にアクセス
 
 ## その他メモ
