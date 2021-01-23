@@ -1,1 +1,2 @@
-# quiz-kanpai
+# quiz-kanpai by oh seunguk
+
