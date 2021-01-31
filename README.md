@@ -21,7 +21,22 @@ $ php artisan serve
 1. 初回起動時、500 Server Error について
 .envファイルがない場合、以下の手順で作成する。  
 ```
-$ copy .env.example .env
+$ cp .env.example .env
 $ php artisan key:generate
 $ php artisan cache:clear
+```
+
+## vue環境構築 
+### １.？
+```
+$ npm install
+```
+### 2.Laravel6.0以上ででVue.jsとBootstrapを使用
+#### 2.1 ライブラリインストール
+```
+$ composer require laravel/ui
+```
+#### 2.2 Vue,bootstrapの使い方
+```
+$ php artisan ui vue
 ```
