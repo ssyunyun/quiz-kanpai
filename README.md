@@ -27,16 +27,16 @@ $ php artisan cache:clear
 ```
 
 ## vue環境構築 
-１.？
+### １.？
 ```
 $ npm install
 ```
-2.Laravel6.0以上ででVue.jsとBootstrapを使用
-2.1 ライブラリインストール
+### 2.Laravel6.0以上ででVue.jsとBootstrapを使用
+#### 2.1 ライブラリインストール
 ```
 $ composer require laravel/ui
 ```
-2.2 Vue,bootstrapの使い方
+#### 2.2 Vue,bootstrapの使い方
 ```
 $ php artisan ui vue
 ```
