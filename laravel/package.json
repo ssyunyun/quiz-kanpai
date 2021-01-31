@@ -13,8 +13,6 @@
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vue": "^2.5.7",
-        "vue-template-compiler": "^2.6.11"
+        "postcss": "^8.1.14"
     }
 }
