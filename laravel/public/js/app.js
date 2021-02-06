@@ -288,11 +288,35 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("router-link", { attrs: { to: "/ReaderStandbyScreen" } }, [
-    _vm._v("Go to ReaderStandbyScreen")
+  return _c("body", [
+    _c("div", { attrs: { id: "app" } }, [
+      _c("h1", [_vm._v("Quiz-Kanpai")]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "button",
+        { on: { click: _vm.showMessage } },
+        [
+          _c("router-link", { attrs: { to: "/ReaderStandbyScreen" } }, [
+            _vm._v("部屋を作る")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("button", { on: { click: _vm.showMessage } }, [_vm._v("部屋を探す")])
+    ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [_vm._v("ユーザ名: "), _c("input")])
+  }
+]
 render._withStripped = true
 
 
