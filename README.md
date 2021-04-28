@@ -11,7 +11,7 @@ phpパッケージ管理システム。[>>Link](https://coinbaby8.com/laravel55-
 $ cd laravel
 $ composer install
 ```
-ßcomposer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。[>>Link](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010)
+composer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。[>>Link](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010)
 
 
 ## 起動方法
