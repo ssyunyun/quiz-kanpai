@@ -30,17 +30,18 @@ $ php artisan key:generate
 $ php artisan cache:clear
 ```
 
-## vue環境構築 
-### １.？
-```
-$ npm install
-```
-### 2.Laravel6.0以上ででVue.jsとBootstrapを使用
-#### 2.1 ライブラリインストール
-```
-$ composer require laravel/ui
-```
-#### 2.2 Vue,bootstrapの使い方
-```
-$ php artisan ui vue
-```
+## vue　ビルドまでの道のり
+### 1.npmの宣言？
+下記コマンド実行後、全てEnter
+`$ npm init`
+### ２.npmのインストール
+npmリポジトリからライブラリ（正確にはパッケージと呼びます）をダウンロードするコマンド
+ライブラリそのものは下記のサイトから取得されます。
+https://www.npmjs.com/
+`$ npm install`
+### 3.ビルドの実行
+`$ npm run deb`
+npm scriptsと呼ばれるタスク実行機能を呼び出すコマンド
+package.json内に書かれたシェルスクリプトを実行するだけ
+
+composer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。[>>Link](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010)
