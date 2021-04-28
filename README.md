@@ -47,5 +47,6 @@ $ npm install
 $ npm run dev
 ```
 npm scriptsと呼ばれるタスク実行機能を呼び出すコマンド  
-package.json内に書かれたシェルスクリプトを実行するだけ
+package.json内に書かれたシェルスクリプトを実行するだけ  
+２回目以降は、手順３のみでOK
 
