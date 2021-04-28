@@ -21,8 +21,7 @@ $ php artisan serve
 ```
 その後 http://localhost:8000 にアクセス
 
-## その他メモ
-1. 初回起動時、500 Server Error について
+### ※500 Server Error
 .envファイルがない場合、以下の手順で作成する。  
 ```
 $ cp .env.example .env
@@ -33,15 +32,20 @@ $ php artisan cache:clear
 ## vue　ビルドまでの道のり
 ### 1.npmの宣言？
 下記コマンド実行後、全てEnter
-`$ npm init`
+```
+$ npm init
+```
 ### ２.npmのインストール
 npmリポジトリからライブラリ（正確にはパッケージと呼びます）をダウンロードするコマンド
 ライブラリそのものは下記のサイトから取得されます。
 https://www.npmjs.com/
-`$ npm install`
+```
+$ npm install
+```
 ### 3.ビルドの実行
-`$ npm run deb`
+```
+$ npm run dev
+```
 npm scriptsと呼ばれるタスク実行機能を呼び出すコマンド
 package.json内に書かれたシェルスクリプトを実行するだけ
 
-composer.jsonのrequire内にあるパッケージをインストールする。パッケージはvendor配下に配置される。[>>Link](https://qiita.com/atwata/items/d6f1cf95ce96ebe58010)
